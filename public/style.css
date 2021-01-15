@@ -1,0 +1,154 @@
+body {
+    background: #e2e2e2;
+    background-image: url('./assets/github\ back.svg');
+    background-size: 150% 110%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin: 10px
+}
+
+input {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 10px;
+    width: 20rem;
+    outline: 0;
+    height: .8rem;
+}
+
+button {
+    width: 5rem;
+    height: 2.09rem;
+    padding: 7px;
+    background: #854BF7;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+img {
+    width: 15%;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.user {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: down .4s linear forwards;
+    transition: .4s;
+}
+
+@keyframes down {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.user-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.user-avatar strong {
+    margin-left: 1rem;
+    color: #854BF7;
+    text-shadow: 1px 1px 2px rgb(211, 210, 210);
+}
+
+.time {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.days,
+.hours,
+.minutes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #854BF7;
+    width: 5rem;
+    height: 4rem;
+    margin: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.days:hover,
+.hours:hover,
+.minutes:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+.days span,
+.hours span,
+.minutes span {
+    color: white;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.767);
+    font-size: 1.3rem;
+}
+
+.days p,
+.hours p,
+.minutes p {
+    text-align: center;
+    width: 3.76rem;
+    background: white;
+    text-shadow: 1px 1px 5px rgba(26, 24, 24, 0.568);
+    color: rgb(22, 22, 22);
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 10px 10px 30px rgba(107, 107, 107, 0.466);
+    margin: 10px;
+}
+
+.text {
+    margin-top: 4rem;
+    color: rgba(107, 107, 107, 0.9)
+}

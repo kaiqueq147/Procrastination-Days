@@ -1,0 +1,25 @@
+{
+    "name": "es6",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+        "@babel/plugin-transform-async-to-generator": "^7.12.1",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.12.11",
+        "babel-loader": "^8.2.2",
+        "webpack": "^5.12.2",
+        "webpack-cli": "^4.3.1",
+        "webpack-dev-server": "^3.11.1"
+    },
+    "scripts": {
+        "dev": "webpack serve --mode=development",
+        "build": "webpack --mode=production"
+    },
+    "dependencies": {
+        "axios": "^0.21.1"
+    }
+}
