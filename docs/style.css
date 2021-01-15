@@ -1,6 +1,6 @@
 body {
     background: #e2e2e2;
-    background-image: url('./assets/github\ back.svg');
+    background-image: url('../public/assets/github\ back.svg');
     background-size: 150% 110%;
     background-repeat: no-repeat;
     padding: 0;
