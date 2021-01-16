@@ -5,7 +5,7 @@ Um projeto simples feito usando a api do github, para te mostrar quantos dias vo
 
 ## :bookmark: Sobre
 
-Com esta aplicação simples você poderá ver a quantos dias não atualiza nada em seu github 😉
+Com esta aplicação simples você poderá ver a quantos dias não atualiza seu github. 
 
  ## :rocket: Tecnologias
 
